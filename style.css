@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+form {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+form div {
+  margin: 0 0 1em 0;
+  display: flex;
+  flex-direction: row;
+  width: 30em;
+
+  justify-content: space-between;
+}
+
+input {
+  height: 1.2em;
+}
+
+button {
+  border-style: none;
+}
